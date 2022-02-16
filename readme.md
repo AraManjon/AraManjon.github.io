@@ -1,12 +1,6 @@
-# Operators
+# Stone, Paper, Scissors
 
-## M4 - EX3-EXTRA - Stone, Paper, Scissors
-
-This line of code:
-   let numRandom = Math.floor (Math.random () * (4 - 1)) + 1
-
-Returns a random number between min included (1) and max excluded (4).
-https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+![Watch the video](video.gif)
 
 Write a program that allows you to play stone, paper, or scissors with your computer.
 
@@ -23,11 +17,13 @@ Let's play stone, paper or scissors:
 Third (1-3):
 
 
-If the user indicates a number other than the requested number, the following message should appear:
+🔍 CONSTRAINS:
+
+1.- If the user indicates a number other than the requested number, the following message should appear:
 
 “Entenc que no vols jugar. Adéu"
 
-Otherwise, indicate the winner as follows:
+2.- Otherwise, indicate the winner as follows:
 
 Jo xxx i tu xxx. He guanyat! o Has guanyat!!
 
@@ -35,11 +31,22 @@ as the case may be.
 
 Example:
 
+```
 “Jo paper i tu tisora. Has guanyat!”
+```
 
+🎲 RULES:
 
-** Paper wins the stone because it wraps it; the scissors win the paper because they cut it, and the stone wins the scissors because they break it.
+Paper wins the stone because it wraps it.
 
-GOAL:
+The scissors win the paper because they cut it.
 
-- Practice create a program that works with object dictionary to resolve diferent options.
+The stone wins the scissors because they break it.
+
+🏆 GOAL EXERCISE:
+
+1.- Practice create a program that works with object dictionary to resolve diferents play conditions.
+
+2.- Save a project in a github repository.
+
+3.- Deploy a project in github pages.
