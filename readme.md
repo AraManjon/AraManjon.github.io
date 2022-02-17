@@ -1,8 +1,22 @@
 # Stone, Paper, Scissors
 
-![Watch the video](video-gif.gif)
+![Watch the video](video.gif)
 
 Write a program that allows you to play stone, paper, or scissors with your computer.
+
+Visit the project [here](https://aramanjon.github.io/).
+
+📍 HOW TO INSTALL:
+
+```
+git clone git@github.com:AraManjon/AraManjon.github.io.git
+
+cd AraManjon.github.io
+
+open index.html in browser
+```
+
+🔖 REQUIREMENTS:
 
 To do this, the computer must generate a random number between 1 and 3 representing stone, paper or scissors respectively, and the user must answer in turn with a number between 1 and 3 after show the following screen:
 
