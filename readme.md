@@ -1,6 +1,6 @@
 # Stone, Paper, Scissors
 
-![Watch the video](video.mov)
+![Watch the video](video-gif.gif)
 
 Write a program that allows you to play stone, paper, or scissors with your computer.
 
